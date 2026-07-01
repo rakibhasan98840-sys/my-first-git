@@ -7,11 +7,14 @@ git add .
 #every time (first commit can change)
 git commit -m "first commit"
 
-
+#only new repo one time use
 git branch -M main
 
 #one time for each repo
 git remote add origin https://github.com/rakibhasan98840-sys/my-first-git.git
 
-
+#first time for new repo
 git push -u origin main
+
+#every time when commit
+git push
